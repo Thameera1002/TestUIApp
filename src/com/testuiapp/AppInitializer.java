@@ -17,7 +17,7 @@ public class AppInitializer extends Application {
         primaryStage.setScene(new
                 Scene(FXMLLoader.load(getClass()
                 .getResource("view/HomePage.fxml"))));
-        primaryStage.setMaximized(true);
+//        primaryStage.setMaximized(true);
         primaryStage.show();
     }
 }
